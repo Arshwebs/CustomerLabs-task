@@ -1,0 +1,28 @@
+nav {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100px;
+	background-color: #00b1bf;
+	font-weight: 900;
+	font-family: ro;
+	color: white;
+	gap: 10px;
+}
+
+.toggle_btn {
+	position: relative;
+	padding: 10px;
+	background-color: transparent;
+	color: black;
+	margin-left: 100px;
+	z-index: 1;
+}
+
+main {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 500px;
+}

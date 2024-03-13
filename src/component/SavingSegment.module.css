@@ -1,0 +1,154 @@
+.parentStyle {
+	display: "block";
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 500px;
+	height: 100%;
+	overflow-y: scroll;
+	z-index: 9999;
+}
+.parentStyleHide {
+	display: none;
+}
+
+nav {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100px;
+	background-color: #00b1bf;
+	font-weight: 900;
+	font-family: ro;
+	color: white;
+	padding-left: 20px;
+}
+
+select {
+	width: 100%;
+	padding: 10px 15px;
+	margin: 20px 0px;
+	appearance: none;
+	outline: none;
+	background-image: url('data:image/svg+xml,<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M7 10L12 15L17 10" stroke="%23657A93" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>');
+	background-repeat: no-repeat;
+	background-position: right 0.7rem top 50%;
+	background-size: 35px auto;
+	background-color: white;
+	cursor: pointer;
+}
+
+.container_fluid {
+	padding: 20px;
+	overflow-y: scroll;
+	background-color: white;
+}
+.selectedSchemaDropdown::-webkit-scrollbar {
+	display: none;
+}
+.container_fluid input {
+	width: 100%;
+	padding: 10px 15px;
+	margin: 20px 0px;
+	outline: none;
+}
+
+.traits_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 13px;
+	gap: 5px;
+}
+
+.trait_green {
+	width: 10px;
+	height: 10px;
+	background-color: #74db79;
+	border-radius: 100%;
+}
+
+.trait_red {
+	width: 10px;
+	height: 10px;
+	background-color: #d24872;
+	border-radius: 100%;
+}
+
+.form_input {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row nowrap;
+	gap: 10px;
+}
+
+.delete_icon {
+	width: 22px;
+	height: 5px;
+	border-radius: 5px;
+	background-color: #657a93;
+}
+
+.form_input_delete {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f2fbf9;
+	padding: 5px;
+	height: 35px;
+	cursor: pointer;
+}
+
+.input_traits {
+	width: 10px;
+	height: 10px;
+	background-color: lightgrey;
+	border-radius: 100%;
+}
+
+.form_link {
+	background-color: white;
+	outline: none;
+	border: none;
+	text-decoration: underline;
+	text-underline-offset: 6px;
+	cursor: pointer;
+	color: #60c0a4;
+	font-weight: 600;
+	margin-left: 20px;
+}
+
+.segment_footer {
+	position: absolute;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	padding: 0px;
+	background-color: #f6f6f6;
+	height: 80px;
+}
+.footer_save {
+	background-color: #59b494;
+	color: white;
+	border: none;
+	margin-left: 10px;
+	padding: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.footer_cancel {
+	background-color: white;
+	color: #d65885;
+	border: none;
+	border-radius: 5px;
+	padding: 15px;
+	cursor: pointer;
+}
